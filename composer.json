@@ -1,5 +1,5 @@
 {
-    "name": "dmitrychuba/nova-google-autocomplete",
+    "name": "natco/google-autocomplete",
     "description": "A Laravel Nova Google autocomplete field.",
     "keywords": [
         "laravel",
@@ -8,7 +8,6 @@
         "autocomplete",
         "address"
     ],
-    "homepage": "https://github.com/dmitrychuba-ti/nova-google-autocomplete",
     "license": "MIT",
     "authors": [
         {
@@ -25,7 +24,7 @@
         },
         {
             "name": "Dmitry Chuba",
-            "email": "dmitry.chuba@gmail.com",
+            "email": "dmitry.chuba@traderinteractive.com",
             "role": "Fork maintener"
         }
     ],
@@ -36,30 +35,23 @@
         }
     ],
     "require": {
-        "php": "^7.4",
-        "laravel/nova": "^4.0"
+        "php": ">=7.1.0"
     },
     "autoload": {
         "psr-4": {
-            "DmitryChuba\\NovaGoogleAutocomplete\\": "src/"
+            "Natco\\GoogleAutocomplete\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "DmitryChuba\\NovaGoogleAutocomplete\\FieldServiceProvider"
+                "Natco\\GoogleAutocomplete\\FieldServiceProvider"
             ]
         }
-    },
-    "scripts": {
-        "format": "vendor/bin/php-cs-fixer fix --allow-risky=yes"
     },
     "config": {
         "sort-packages": true
     },
     "minimum-stability": "dev",
-    "prefer-stable": true,
-    "require-dev": {
-        "friendsofphp/php-cs-fixer": "^3.8"
-    }
+    "prefer-stable": true
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace DmitryChuba\NovaGoogleAutocomplete;
+namespace Natco\GoogleAutocomplete;
 
 use Laravel\Nova\Fields\Field;
 
@@ -21,7 +21,7 @@ class GoogleAutocomplete extends Field
         ]);
     }
 
-    public function countries(string|array $list): self
+    public function countries($list): self
     {
         return $this->withMeta([
             'countries' => $list,

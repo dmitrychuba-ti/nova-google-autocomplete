@@ -1,6 +1,6 @@
 <?php
 
-namespace DmitryChuba\NovaGoogleAutocomplete;
+namespace Natco\GoogleAutocomplete;
 
 use Illuminate\Support\ServiceProvider;
 use Laravel\Nova\Events\ServingNova;
